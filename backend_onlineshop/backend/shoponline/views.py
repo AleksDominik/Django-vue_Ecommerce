@@ -12,7 +12,7 @@ def index(request):
 def CreateProduct(request):
     data=request.POST
     prod=Product(
-    productname=
+    productname=models.CharField(max_lenght)
     productdescription=models.CharField(max_length=200)
     productcategory=models.CharField(max_length=200)
     productprice=models.CharField(max_length=200)
